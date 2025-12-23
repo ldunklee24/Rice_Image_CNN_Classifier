@@ -1,4 +1,4 @@
-#Rice Image Classification Using Convolutional Neural Networks
+# Rice Image Classification Using Convolutional Neural Networks
 
 Overview
 
