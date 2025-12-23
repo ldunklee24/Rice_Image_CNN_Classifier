@@ -1,12 +1,12 @@
 # Rice Image Classification Using Convolutional Neural Networks
 
-Overview
+### Overview
 
 This project implements a Convolutional Neural Network (CNN) to classify images of rice into five distinct rice varieties using supervised deep learning. The model is trained on labeled image data and evaluated to assess generalization and overfitting behavior.
 
 The project focuses on end-to-end image classification, including data preprocessing, augmentation, model design, training, and evaluation using TensorFlow and Keras.
 
-Objectives
+### Objectives
 
 Build a CNN from scratch for multi-class image classification
 
@@ -18,7 +18,7 @@ Evaluate model performance using validation and test datasets
 
 Practice deep learning workflows using TensorFlow/Keras
 
-Dataset
+### Dataset
 
 Task: Multi-class image classification
 
@@ -28,7 +28,7 @@ Input: RGB images
 
 Data Source: Kaggle rice image dataset
 
-Preprocessing:
+### Preprocessing:
 
 Images resized and batched
 
@@ -36,7 +36,7 @@ Pixel values normalized to the range [0, 1]
 
 Dataset split into training, validation, and testing sets
 
-Methodology
+### Methodology
 1. Data Loading & Preprocessing
 
 Loaded image data using TensorFlow’s data pipeline utilities
@@ -97,7 +97,7 @@ Validation vs. training performance
 
 Used evaluation results to assess overfitting and model robustness
 
-Results
+### Results
 
 The CNN successfully learned discriminative features for rice classification
 
@@ -105,7 +105,7 @@ Data augmentation and early stopping improved generalization
 
 Final model performance demonstrated the effectiveness of CNNs for image-based classification tasks
 
-Technologies Used
+### Technologies Used
 
 Python
 
@@ -117,11 +117,11 @@ Jupyter Notebook
 
 KaggleHub (dataset retrieval)
 
-Project Structure
+### Project Structure
 ├── Rice_Detector.ipynb
 ├── README.md
 
-Future Improvements
+### Future Improvements
 
 Experiment with deeper architectures (e.g., additional convolutional blocks)
 
